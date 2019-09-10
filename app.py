@@ -18,8 +18,7 @@ def predict():
     return render_template('results.html', prediction=my_prediction)
 
 
-#@app.route('/predict', methods=['POST'])
-#def predict():
+
 
 
 if __name__ == '__main__':
